@@ -5,7 +5,7 @@ function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="relative flex items-center justify-between w-full px-4 py-4 sm:px-5 md:px-7 lg:px-13">
+    <div className="relative flex items-center justify-between w-full px-4 py-4 sm:px-5 md:px-4 lg:px-13">
       <div className="logo">
         <h1 className="text-lg font-semibold sm:text-xl md:text-2xl lg:text-3xl">
           Wildlife Foundation
@@ -14,7 +14,7 @@ function Navbar() {
 
       {/* Desktop Menu */}
       <div className="hidden nav-links md:block">
-        <ul className="flex gap-3 font-semibold list-none lg:gap-8">
+        <ul className="flex gap-3 font-semibold list-none md:gap-2 lg:gap-8">
           <li>
             <Link to="/#About" className="hover:text-[#007AFF]">
               About
@@ -45,7 +45,7 @@ function Navbar() {
 
       <Link
         to="/donate"
-        className="hidden md:block bg-[#007AFF] text-white text-sm md:text-base font-semibold px-4 md:px-6 py-2 lg:py-3 rounded-lg"
+        className="hidden md:block bg-[#007AFF] text-white text-sm md:text-base font-semibold px-3 md:px-4 lg:px-6 py-2 lg:py-3 rounded-lg"
       >
         Donate Now
       </Link>
