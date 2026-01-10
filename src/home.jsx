@@ -7,8 +7,10 @@ import Impact from "./home/impact.jsx";
 import Movement from "./home/movement.jsx";
 import Updated from "./home/updated.jsx";
 import Footer from "./home/footer.jsx";
+import { useScrollToSection } from "./hooks/useScrollToSection.js";
 
 function Home() {
+  useScrollToSection();
   return (
     <div className="p-0 m-0">
       <nav className="sticky top-0 z-40 bg-white shadow-md">

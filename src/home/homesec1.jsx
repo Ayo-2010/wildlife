@@ -19,13 +19,13 @@ function Homesec1() {
       </p>
       <div className="z-10 flex flex-col w-full gap-4 px-4 sm:flex-row sm:gap-5 sm:w-auto sm:justify-center sm:px-0">
         <Link
-          to="/explore"
+          to="/#protect"
           className="z-10 bg-[#007AFF] text-white text-sm sm:text-base md:text-lg font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-[10px] text-center"
         >
           Explore Our Work
         </Link>
         <Link
-          to="/explore"
+          to="/donate"
           className="z-10 border-2 border-white text-white text-sm sm:text-base md:text-lg font-semibold px-6 sm:px-8 py-3 sm:py-4 rounded-[10px] bg-transparent text-center"
         >
           Support Conservation

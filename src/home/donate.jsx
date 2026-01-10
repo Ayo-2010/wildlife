@@ -75,18 +75,18 @@ function Donate() {
   };
 
   return (
-    <div className="flex flex-col min-h-screen bg-white">
+    <div id="donate" className="flex flex-col min-h-screen bg-white">
       <nav className="sticky top-0 z-40 bg-white shadow-sm">
         <Navbar />
       </nav>
 
       {/* Thank You Message */}
       {donationComplete && (
-        <div className="fixed top-32 left-1/2 z-50 w-full max-w-md px-4 transform -translate-x-1/2 sm:px-6">
-          <div className="bg-green-500 text-white px-6 sm:px-8 py-4 rounded-lg shadow-lg animate-bounce">
+        <div className="fixed z-50 w-full max-w-md px-4 transform -translate-x-1/2 top-32 left-1/2 sm:px-6">
+          <div className="px-6 py-4 text-white bg-green-500 rounded-lg shadow-lg sm:px-8 animate-bounce">
             <div className="flex items-center gap-3">
               <svg
-                className="w-6 h-6 flex-shrink-0"
+                className="flex-shrink-0 w-6 h-6"
                 fill="currentColor"
                 viewBox="0 0 20 20"
               >

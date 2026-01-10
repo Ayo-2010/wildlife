@@ -3,9 +3,9 @@ import React from "react";
 function Footer() {
   return (
     <footer className="min-h-fit bg-[#1D1D1F] px-4 sm:px-6 md:px-10 lg:px-16 py-8 sm:py-10 md:py-12">
-      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-4 mx-auto mb-6 sm:mb-8 gap-4 sm:gap-6 md:gap-8 lg:gap-12 max-w-7xl">
+      <div className="grid grid-cols-2 gap-4 mx-auto mb-6 sm:grid-cols-2 md:grid-cols-4 sm:mb-8 sm:gap-6 md:gap-8 lg:gap-12 max-w-7xl">
         <div>
-          <h3 className="mb-4 font-bold text-white text-sm sm:text-base md:text-lg lg:text-xl">
+          <h3 className="mb-4 text-sm font-bold text-white sm:text-base md:text-lg lg:text-xl">
             Wildlife Foundation
           </h3>
           <p className="text-xs sm:text-sm md:text-[15px] font-normal text-white/80">
@@ -14,7 +14,7 @@ function Footer() {
           </p>
         </div>
         <div>
-          <h4 className="mb-4 text-sm sm:text-base md:text-lg font-semibold text-white">
+          <h4 className="mb-4 text-sm font-semibold text-white sm:text-base md:text-lg">
             Quick Links
           </h4>
           <div className="space-y-2">
@@ -69,17 +69,17 @@ function Footer() {
           </div>
         </div>
         <div>
-          <h4 className="mb-4 text-sm sm:text-base md:text-lg font-semibold text-white">
+          <h4 className="mb-4 text-sm font-semibold text-white sm:text-base md:text-lg">
             Contact
           </h4>
           <div className="space-y-2 text-xs sm:text-sm md:text-[15px] font-normal text-white/80">
             <p>Email: info@wildlifefoundation.org</p>
-            <p>Phone: +1 (555) 123-4567</p>
-            <p>Address: 123 Conservation Way</p>
+            <p>Phone: +234 7045 033 528</p>
+            <p>Address: 456789 Conservation Way</p>
           </div>
         </div>
         <div>
-          <h4 className="mb-4 text-sm sm:text-base md:text-lg font-semibold text-white">
+          <h4 className="mb-4 text-sm font-semibold text-white sm:text-base md:text-lg">
             Follow Us
           </h4>
           <div className="flex flex-wrap items-center gap-3 sm:gap-4 flex-2">
@@ -154,9 +154,9 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="pt-4 sm:pt-6 text-center border-t border-white/20">
-        <p className="text-xs sm:text-sm font-normal text-white/60">
-          © 2024 Wildlife Conservation Foundation. All rights reserved
+      <div className="pt-4 text-center border-t sm:pt-6 border-white/20">
+        <p className="text-xs font-normal sm:text-sm text-white/60">
+          © 2026 Wildlife Conservation Foundation. All rights reserved
         </p>
       </div>
     </footer>

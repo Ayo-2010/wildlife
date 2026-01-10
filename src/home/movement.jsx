@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Movement() {
   return (
@@ -30,12 +31,12 @@ function Movement() {
             Join our field programs and make a direct impact on wildlife
             conservation efforts worldwide
           </p>
-          <a
-            className="text-sm sm:text-base font-medium text-[#007AFF]"
-            href="#"
+          <Link
+            to="/volunteer"
+            className="text-sm sm:text-base font-medium text-[#007AFF] hover:underline"
           >
             Learn More
-          </a>
+          </Link>
         </div>
         <div className="bg-[#FAFAFA] rounded-2xl px-4 sm:px-5 py-6 sm:py-8 md:py-10 md:px-5 lg:p-10 text-center">
           <svg
@@ -57,12 +58,12 @@ function Movement() {
             Your contribution helps fund critical conservation projects and
             protect endangered species
           </p>
-          <a
-            className="text-sm sm:text-base font-medium text-[#007AFF]"
-            href="#"
+          <Link
+            to="/donate"
+            className="text-sm sm:text-base font-medium text-[#007AFF] hover:underline"
           >
             Learn More
-          </a>
+          </Link>
         </div>
         <div className="bg-[#FAFAFA] rounded-2xl px-4 sm:px-5 py-6 sm:py-8 md:py-10 md:px-5 lg:p-10 text-center">
           <svg
@@ -84,12 +85,12 @@ function Movement() {
             Learn about wildlife conservation and share knowledge to inspire
             others to take action
           </p>
-          <a
-            className="text-sm sm:text-base font-medium text-[#007AFF]"
-            href="#"
+          <Link
+            to="/educate"
+            className="text-sm sm:text-base font-medium text-[#007AFF] hover:underline"
           >
             Learn More
-          </a>
+          </Link>
         </div>
       </div>
     </div>
