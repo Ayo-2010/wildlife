@@ -6,6 +6,7 @@ import Home from "./home.jsx";
 import Donate from "./home/donate.jsx";
 import Volunteer from "./home/volunteer.jsx";
 import Educate from "./home/educate.jsx";
+import VolunteerForm from "./home/volunteerForm.jsx";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -15,6 +16,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/donate" element={<Donate />} />
         <Route path="/volunteer" element={<Volunteer />} />
         <Route path="/educate" element={<Educate />} />
+        <Route path="/volunteer-form" element={<VolunteerForm />} />
       </Routes>
     </Router>
   </StrictMode>

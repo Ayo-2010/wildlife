@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import Navbar from "./navbar.jsx";
 import Footer from "./footer.jsx";
+import { useScrollToTop } from "../hooks/useScrollToTop.js";
 
 function Donate() {
+  useScrollToTop();
   const [selectedAmount, setSelectedAmount] = useState(null);
   const [customAmount, setCustomAmount] = useState("");
   const [selectedFrequency, setSelectedFrequency] = useState("once");

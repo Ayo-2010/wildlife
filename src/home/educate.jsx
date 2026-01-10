@@ -1,8 +1,10 @@
 import React from "react";
 import Navbar from "./navbar.jsx";
 import Footer from "./footer.jsx";
+import { useScrollToTop } from "../hooks/useScrollToTop.js";
 
 function Educate() {
+  useScrollToTop();
   const resources = [
     {
       title: "Wildlife Documentaries",

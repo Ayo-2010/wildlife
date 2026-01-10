@@ -1,8 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Navbar from "./navbar.jsx";
 import Footer from "./footer.jsx";
+import { useScrollToTop } from "../hooks/useScrollToTop.js";
 
 function Volunteer() {
+  useScrollToTop();
   const programs = [
     {
       title: "Field Research",
@@ -117,9 +120,12 @@ function Volunteer() {
             <p className="text-base sm:text-lg text-blue-100 mb-8">
               Apply now to join our next volunteer expedition and make a real difference for wildlife conservation.
             </p>
-            <button className="bg-white text-[#007AFF] font-semibold px-8 sm:px-10 py-3 sm:py-4 rounded-lg hover:bg-gray-100 transition-colors text-base sm:text-lg">
+            <Link
+              to="/volunteer-form"
+              className="inline-block bg-white text-[#007AFF] font-semibold px-8 sm:px-10 py-3 sm:py-4 rounded-lg hover:bg-gray-100 transition-colors text-base sm:text-lg"
+            >
               Apply Now
-            </button>
+            </Link>
           </div>
         </div>
       </main>
